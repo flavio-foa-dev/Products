@@ -1,0 +1,16 @@
+npm init -y
+npm i Express
+npm i ts-jest ts-node nodemon -D
+npm typescript -D
+npm i @types/express -D
+npm i @types/jest -D
+npm axios
+
+npx ts-jest config:init
+npx tsc --init
+
+rodar os test
+  npx jest
+
+nodemon
+  npx nodemon rsc/main.ts

@@ -1,0 +1,25 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "Nodejs | API Rest | MySQL | Express | Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+   "dev": "npx nodemon src/api.ts --watch"
+  },
+  "keywords": [],
+  "author": "Flavio Andrade",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "@types/jest": "^29.5.5",
+    "nodemon": "^3.0.1",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "express": "^4.18.2"
+  }
+}
