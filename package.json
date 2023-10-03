@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-   "dev": "npx nodemon src/api.ts --watch"
+    "dev": "npx nodemon src/api.ts --watch"
   },
   "keywords": [],
   "author": "Flavio Andrade",
